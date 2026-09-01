@@ -59,9 +59,7 @@ npm test
 
 这个扩展适用于华南理工大学课程中心里的 PDF 课件。目标文件只有 **AI** 和预览按钮，没有下载按钮。
 
-<p align="center">
-  <img src="assets/01-pdf-without-download.png" alt="课程中心中只有 AI 和预览入口的 PDF 文件" width="300">
-</p>
+<img src="assets/01-pdf-without-download.png" alt="课程中心中只有 AI 和预览入口的 PDF 文件" width="300">
 
 当前版本只处理 PDF。PPT、PPTX、视频和课程主页链接不会被识别。页面本身已经提供正常下载按钮时，直接使用网站的下载功能即可。
 
