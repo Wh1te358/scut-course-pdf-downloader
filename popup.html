@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>课程 PDF 下载</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>课程 PDF 下载</h1>
+    <p class="hint">支持 PDF 直链，以及地址中含有原始 PDF 的 PDF.js 预览链接。</p>
+
+    <label for="urlInput">PDF 链接</label>
+    <textarea id="urlInput" placeholder="https://example.com/document.pdf&#10;或 PDF.js viewer.html?file=...pdf"></textarea>
+
+    <div class="actions">
+      <button id="detectBtn">识别链接</button>
+      <button id="downloadBtn" disabled>下载 PDF</button>
+    </div>
+
+    <p id="status" class="status">等待输入链接...</p>
+    <p class="note">PDF.js 链接：请在当前标签页打开并等待预览加载完成后再下载。</p>
+  </main>
+
+  <script src="link-utils.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

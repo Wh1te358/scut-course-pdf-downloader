@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "SCUT Course PDF Downloader",
+  "version": "1.0.0",
+  "description": "Download direct PDF links and export PDFs loaded in PDF.js viewers.",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
