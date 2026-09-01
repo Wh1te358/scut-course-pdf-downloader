@@ -59,7 +59,9 @@ npm test
 
 这个扩展适用于华南理工大学课程中心里的 PDF 课件。目标文件只有 **AI** 和预览按钮，没有下载按钮。
 
-![课程中心中只有 AI 和预览入口的 PDF 文件](assets/01-pdf-without-download.png)
+<p align="center">
+  <img src="assets/01-pdf-without-download.png" alt="课程中心中只有 AI 和预览入口的 PDF 文件" width="300">
+</p>
 
 当前版本只处理 PDF。PPT、PPTX、视频和课程主页链接不会被识别。页面本身已经提供正常下载按钮时，直接使用网站的下载功能即可。
 
@@ -69,11 +71,11 @@ npm test
 2. 点击页面右上角的三个点。
 3. 在菜单中点击“分享”。
 
-   ![从右上角菜单选择分享](assets/02-share-menu.png)
+   <img src="assets/02-share-menu.png" alt="从右上角菜单选择分享" width="220">
 
 4. 页面会弹出该文件的分享地址。点击这个地址，在浏览器中打开它。
 
-   ![课程中心生成的 PDF 分享地址，敏感信息已隐藏](assets/03-share-link-redacted.png)
+   <img src="assets/03-share-link-redacted.png" alt="课程中心生成的 PDF 分享地址，敏感信息已隐藏" width="720">
 
 5. 等待 PDF 预览页完成加载。浏览器地址栏中的链接通常包含 `viewer.html?file=`，其中的 `file=` 参数保存着原始 PDF 地址。
 
